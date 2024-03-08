@@ -4,34 +4,34 @@ h1 {
   
   .container {
     background-color: rgb(255, 255, 255);
-    padding: 10px 0;
+    padding: 10px 0; /* padding con dos argumentos el primero para paggin-top and bottom , el segundo para left & right*/
   }
   
-  .marker {
+  .marker {/* class marker to draw basic form to our markers*/
     width: 200px;
     height: 25px;
-    margin: 10px auto;
+    margin: 10px auto; /*in this case 'auto' means that the marker to left and right margin are center by default  */
   }
   
   .cap {
-    width: 60px;
-    height: 25px;
+    width: 60px;/*how to long as de the cap*/
+    height: 25px; /*the anchor for the cap*/
   }
   
   .sleeve {
     width: 110px;
     height: 25px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-left: 10px double rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);/*in RGBA the las value meaning how to opacity it is applied 0 - 1.0 --> 0% to 100%*/
+    border-left: 10px double rgba(0, 0, 0, 0.75);/*margin-left using a short way to put all of his values inline --> px´s style(solid , double...) color*/
   }
   
-  .cap, .sleeve {
+  .cap, .sleeve {/*they are using another sentence to cap and sleeve bacause they were need to stop to hidde the .cap div */
     display: inline-block;
   }
   
   .red {
-    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));/*linear-gradient allows 2 parameters minimum to show th result*/
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); /* admits positive and negative values -> 1st a 2nd value , blur 3rd , 4rd sprite to the blur */
   }
   
   .green {

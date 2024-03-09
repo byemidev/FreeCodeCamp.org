@@ -6,16 +6,23 @@ body {
 }
 
 form {
-    width: 60vw;
+    width: 70vw;
     max-width: 620px;
     min-width: 350px;
     margin: 0 auto;
     padding-bottom: 2em;
     background-color: blueviolet;
   }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
 
   .headerstyles {
     display: block;
+    
     color: greenyellow;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerstyles">
+            <h1 id="title">BEST PROGRAMMING LANGUAGE.<h1>
+                <p id="description">In this survey we are triying to know what is the best programming language for our
+                    users</p>       
+        </div>  
+    </header>
+            <form id="survey-form">
+                <fieldset id="PersonalInfo">
+                    <legend>Personal information required</legend>
+                    <label id="name-label">Name: <input id="name" type="text" required placeholder="name" /></label>
+                    <label id="email-label">Email: <input id="email" type="email" required placeholder="email" /></label>
+                    <label id="number-label">Number: <input id="number" type="number" min="1" max="99" placeholder="number" /></label>
+                </fieldset>
+
+                <fieldset>
+                    <select id="dropdown">
+                        <option value="">select one..</option>
+                        <option value="1">HTML5+CSS</option>
+                        <option value="2">HTML5+TailwindCSS</option>
+                        <option value="1">HTML+BOOTSTRAP</option>
+                        <option value="2"></option>
+                        <option></option>
+                    </select>
+                    
+                    <section id="fields">
+                        <label>PHP <input type="checkbox" name="fields" value=".pdf" /></label>
+                        <label>Python <input type="checkbox" name="fields" value=".doc" /></label>
+                        <label>C# <input type="checkbox" name="fields" value=".html" /></label>
+                        <label>JSript <input type="checkbox" name="fields" value=".css" /></label>
+                    </section>
+                    
+                    <textarea></textarea>
+                </fieldset>
+
+                <input id="submit" type="submit" />
+            </form>
+</body>
+
+</html>

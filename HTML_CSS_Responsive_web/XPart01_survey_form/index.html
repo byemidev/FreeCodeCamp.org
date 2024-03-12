@@ -9,43 +9,46 @@
 
 <body>
     <header>
-        <div class="headerstyles">
+        <div class="container">
             <h1 id="title">BEST PROGRAMMING LANGUAGE.<h1>
                 <p id="description">In this survey we are triying to know what is the best programming language for our
                     users</p>       
         </div>  
     </header>
+    <main>
+        <div class="container">
             <form id="survey-form">
-                <fieldset id="PersonalInfo">
-                    <legend>Personal information required</legend>
-                    <label id="name-label">Name: <input id="name" type="text" required placeholder="name" /></label>
-                    <label id="email-label">Email: <input id="email" type="email" required placeholder="email" /></label>
-                    <label id="number-label">Number: <input id="number" type="number" min="1" max="99" placeholder="number" /></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>You stack for Front-end</legend>
-                    <select id="dropdown">
-                        <option value="">select one..</option>
-                        <option value="1">HTML5+CSS</option>
-                        <option value="2">HTML5+TailwindCSS</option>
-                        <option value="1">HTML+BOOTSTRAP</option>
-                        <option value="2"></option>
-                        <option></option>
-                    </select>
-                    
-                    <section id="fields">
-                        <label>PHP <input type="checkbox" name="fields" value=".pdf" /></label>
-                        <label>Python <input type="checkbox" name="fields" value=".doc" /></label>
-                        <label>C# <input type="checkbox" name="fields" value=".html" /></label>
-                        <label>JSript <input type="checkbox" name="fields" value=".css" /></label>
-                    </section>
-                    
-                    <textarea></textarea>
-                </fieldset>
-
-                <input id="submit" type="submit" />
-            </form>
+                <fieldset class="personalInfo">
+                        <legend>Personal information required</legend>
+                        <label id="name-label">Name: <input id="name" type="text" required placeholder="name" /></label>
+                        <label id="email-label">Email: <input id="email" type="email" required placeholder="email" /></label>
+                        <label id="number-label">Number: <input id="number" type="number" min="1" max="99" placeholder="number" /></label>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Whats ur favourite stack?</legend>
+                        <select id="dropdown">
+                            <option value="">select one..</option>
+                            <option value="1">HTML5+CSS</option>
+                            <option value="2">HTML5+TailwindCSS</option>
+                            <option value="1">HTML+BOOTSTRAP</option>
+                            <option value="2"></option>
+                            <option></option>
+                        </select>
+                        
+                        <section id="fields">
+                            <label class="inline">PHP <input type="checkbox" name="fields" value=".pdf" /></label>
+                            <label class="inline">Python <input type="checkbox" name="fields" value=".doc" /></label>
+                            <label class="inline">C# <input type="checkbox" name="fields" value=".html" /></label>
+                            <label class="inline">JSript <input type="checkbox" name="fields" value=".css" /></label>
+                        </section>
+                        
+                        <textarea rows="25" cols="60"></textarea>
+                    </fieldset>
+        
+                    <input id="submit" type="submit" />
+                </form>
+        </div>
+    </main>
 </body>
-
 </html>

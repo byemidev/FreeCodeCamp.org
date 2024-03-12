@@ -1,35 +1,21 @@
 body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    /*background-image: url(https://coderscat.com/images/2019_09_25_learn-pl.org_20190928_152434.png);*/
+  font-family: monospace;
+  padding: 20px;
 }
 
-form {
-    width: 70vw;
-    max-width: 620px;
-    min-width: 350px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-    background-color: blueviolet;
-  }
+fieldset{
+  display: block;
+  margin: 30px 0;
+}
+
+input {
+  width: 280px;
+  height: 25px;
   
-  fieldset {
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
-  }
+}
 
-  .headerstyles {
-    display: block;
-    
-    color: greenyellow;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  .headerstyles p {
-    color: red; 
-    font-size: 0.8rem;
-  }
+.container {
+  display: block;
+  margin: 1rem;
+  background-color: aqua;
+}
